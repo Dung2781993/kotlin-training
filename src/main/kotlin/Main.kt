@@ -1,7 +1,5 @@
 fun main() {
-    printGreeting();
-}
+    fun getGreeting(thingToGreet: String) = "Hello $thingToGreet";
 
-fun printGreeting() {
-    println("Hello World");
+    println(getGreeting("Kotlin"));
 }
