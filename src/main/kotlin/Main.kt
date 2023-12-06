@@ -1,9 +1,7 @@
 fun main() {
-    var ourFirstVariable: Boolean = true;
+    printGreeting();
+}
 
-    println(ourFirstVariable);
-
-    ourFirstVariable = false;
-    println(ourFirstVariable);
-
+fun printGreeting() {
+    println("Hello World");
 }
